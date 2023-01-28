@@ -1,0 +1,80 @@
+.form {
+  padding: 10px;
+}
+
+.ticket-title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  gap: 20px;
+}
+
+.select {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.input-name {
+  max-width: 100%;
+  height: 40px;
+  padding: 0;
+}
+
+#numbers,
+#title {
+  width: 100%;
+  height: 40px;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.btn {
+  width: 100%;
+  height: 56px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+.name {
+  text-align: start;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.label-terms {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.ticket-title-label {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+}
+
+input[type="text"] {
+  padding-left: 8px;
+}
